@@ -13,8 +13,261 @@
 
 #---------------------------------- Content ---------------------------------#
 
+#begin audio/01 - Toejam Jammin.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:audio/01 - Toejam Jammin.mp3
+
+#begin audio/Ahchoo!.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Ahchoo!.wav
+
+#begin audio/Aloha.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Aloha.wav
+
+#begin audio/BigEarl!.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/BigEarl!.wav
+
+#begin audio/Bite.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Bite.wav
+
+#begin audio/Boogeyman.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Boogeyman.wav
+
+#begin audio/Boom.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Boom.wav
+
+#begin audio/Burp.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Burp.wav
+
+#begin audio/CarrotMan.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/CarrotMan.wav
+
+#begin audio/Chickens.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Chickens.wav
+
+#begin audio/Clap.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Clap.wav
+
+#begin audio/Cupid.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Cupid.wav
+
+#begin audio/Dentist.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Dentist.wav
+
+#begin audio/grass.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:audio/grass.mp3
+
+#begin audio/Hallelujah.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Hallelujah.wav
+
+#begin audio/Horn.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Horn.wav
+
+#begin audio/Jammin'.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Jammin'.wav
+
+#begin audio/Mailbox.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Mailbox.wav
+
+#begin audio/Meep.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Meep.wav
+
+#begin audio/Money!.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Money!.wav
+
+#begin audio/OperaLady.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/OperaLady.wav
+
+#begin audio/Randomizer.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Randomizer.wav
+
+#begin audio/Rap!.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Rap!.wav
+
+#begin audio/Scratchin'.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Scratchin'.wav
+
+#begin audio/shAka.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/shAka.wav
+
+#begin audio/Sleeping.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Sleeping.wav
+
+#begin audio/Smoosh.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Smoosh.wav
+
+#begin audio/Sparkles.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Sparkles.wav
+
+#begin audio/Splash.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Splash.wav
+
+#begin audio/Spring.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Spring.wav
+
+#begin audio/Telephone.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Telephone.wav
+
+#begin audio/ToeJam!.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/ToeJam!.wav
+
+#begin audio/TomatoLaunch.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/TomatoLaunch.wav
+
+#begin audio/WAKEUP!.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/WAKEUP!.wav
+
+#begin audio/WakeUp.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/WakeUp.wav
+
+#begin audio/Whoa!.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Whoa!.wav
+
+#begin audio/Yaaaaaaa!.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Yaaaaaaa!.wav
+
+#begin audio/YeahAlright!.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/YeahAlright!.wav
+
+#begin audio/Yeeheh!.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Yeeheh!.wav
+
+#begin audio/Yeouch! (Earl).wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Yeouch! (Earl).wav
+
+#begin audio/Yeouch! (ToeJam).wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:audio/Yeouch! (ToeJam).wav
+
 #begin File.xml
 /copy:File.xml;ToeJam_Transparent.xml
+
+#begin fonts/DefaultFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:fonts/DefaultFont.spritefont
 
 #begin images/Elevator(1).png
 /importer:TextureImporter
@@ -39,6 +292,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:images/floor_path_tiles.png
+
+#begin images/HUD_Display (1).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:images/HUD_Display (1).png
 
 #begin images/HUD_Display.png
 /importer:TextureImporter
@@ -87,6 +352,9 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:images/Lil_Devil.png
+
+#begin images/tilemap-definition.xml
+/copy:images/tilemap-definition.xml
 
 #begin images/ToeJam_Transparent.png
 /importer:TextureImporter

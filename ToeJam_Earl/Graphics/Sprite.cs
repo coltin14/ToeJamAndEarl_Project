@@ -1,10 +1,26 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using ToeJam_Earl;
 
 namespace MonoGameLibrary.Graphics;
 
-public class Sprite
+public class Sprite : GameObject
 {
+
+    public float Speed;
+
+    public Vector2 Position
+    {
+        get => _position;
+        set => _position = value;
+    }
+
+    public Sprite(Texture2D tex, Vector2 pos)
+    {
+        sprite = tex;
+        _position = pos;
+        Speed = 0;
+    }
     /// <summary>
     /// Gets or Sets the source texture region represented by this sprite.
     /// </summary>
@@ -92,7 +108,10 @@ public class Sprite
     /// </summary>
     public void CenterOrigin()
     {
-        Origin = new Vector2(Region.Width, Region.Height) * 0.5f;
+        if(Region != null)
+        {
+            Origin = new Vector2(Region.Width * 0.5f, Region.Height * 0.5f);
+        }
     }
 
     /// <summary>

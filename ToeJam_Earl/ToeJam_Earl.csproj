@@ -16,6 +16,9 @@
     <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.*" />
   </ItemGroup>
   <ItemGroup>
+    <None Update="Content\images\tilemap-definition.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Content\images\ToeJam_Transparent.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

@@ -3,20 +3,14 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace ToeJam_Earl
 {
-    // A simple object in the game (like a player, enemy, or item)
     public class GameObject
     {
-        protected Texture2D sprite;   
+        public Texture2D sprite;   
         public Vector2 _position;
-        protected Rectangle sourceRect;
+        public Rectangle sourceRect;
         public float Scale = 1.0f;
+        private Texture2D texture;
 
-        // Default empty constructor
-        public GameObject()
-        { 
-        }
-
-        // Virtual methods (can be overridden in child classes if needed)
         public virtual void Update(GameTime gameTime) 
         {
         }
@@ -48,7 +42,9 @@ namespace ToeJam_Earl
             sourceRect = source;
         }
     }
-    public class Enemy : GameObject
+
+    //the Lil_Devil sprite = enemy 
+    /*public class Enemy : GameObject
     {
         public Enemy(Texture2D texture, Vector2 position, Rectangle source)
         {
@@ -56,16 +52,33 @@ namespace ToeJam_Earl
             _position = position;
             sourceRect = source;
         }
-    }
+    }*/
     public class Item : GameObject
     {
+        public bool IsActive { get; set; }
+
         public Item(Texture2D texture, Vector2 position, Rectangle source)
         {
             sprite = texture;
             _position = position;
             sourceRect = source;
+            IsActive = true;
+        }
+
+        public override void Draw(SpriteBatch spriteBatch)
+        {
+            if (IsActive)
+                base.Draw(spriteBatch);
+        }
+
+        public override void Update(GameTime gameTime)
+        {
+            if (!IsActive)
+                return;
+            base.Update(gameTime);
         }
     }
+
     public class Elevator : GameObject
     {
         public Elevator(Texture2D texture, Vector2 position, Rectangle source)
@@ -87,6 +100,28 @@ namespace ToeJam_Earl
     public class UIelement : GameObject
     {
         public UIelement(Texture2D texture, Vector2 position, Rectangle source)
+        {
+            sprite = texture;
+            _position = position;
+            sourceRect = source;
+        }
+    }
+    
+    public class List : GameObject
+    {
+        public List(Texture2D texture, Vector2 position, Rectangle source)
+        {
+            sprite = texture;
+            _position = position;
+            sourceRect = source;
+        }
+    }
+    
+    public class Button : GameObject
+    {
+        //private Rectangle buttonRectangle;
+        //public bool IsClicked { get; private set; }
+        public Button(Texture2D texture, Vector2 position, Rectangle source)
         {
             sprite = texture;
             _position = position;
